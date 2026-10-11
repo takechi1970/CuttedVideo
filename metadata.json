@@ -1,0 +1,6 @@
+{
+  "name": "CuttedVideo - Divisor de Videos para Android",
+  "description": "Aplicación nativa Android desarrollada en Kotlin, Jetpack Compose y Material 3 con AndroidX Media3 Transformer para dividir videos en segmentos con control de velocidad y resolución.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

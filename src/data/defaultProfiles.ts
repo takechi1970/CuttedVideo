@@ -1,0 +1,61 @@
+import { SplitProfile } from '../types';
+
+export const INITIAL_PROFILES: SplitProfile[] = [
+  {
+    id: 'whatsapp_status_30',
+    name: 'WhatsApp Estados (30s)',
+    platform: 'WhatsApp',
+    maxDurationSeconds: 30,
+    description: 'Límite clásico para estados de WhatsApp (30 segundos por clip).',
+    isEditable: true,
+  },
+  {
+    id: 'whatsapp_status_60',
+    name: 'WhatsApp Estados (60s)',
+    platform: 'WhatsApp',
+    maxDurationSeconds: 60,
+    description: 'Nuevo límite extendido de 1 minuto para estados de WhatsApp.',
+    isEditable: true,
+  },
+  {
+    id: 'instagram_reels_90',
+    name: 'Instagram Reels (90s)',
+    platform: 'Instagram',
+    maxDurationSeconds: 90,
+    description: 'Formato estándar para reels de Instagram (hasta 90 segundos).',
+    isEditable: true,
+  },
+  {
+    id: 'instagram_stories_60',
+    name: 'Instagram Historias (60s)',
+    platform: 'Instagram',
+    maxDurationSeconds: 60,
+    description: 'Historias continuas de hasta 60 segundos.',
+    isEditable: true,
+  },
+  {
+    id: 'tiktok_60',
+    name: 'TikTok Corto (60s)',
+    platform: 'TikTok',
+    maxDurationSeconds: 60,
+    description: 'Ideal para videos rápidos de 1 minuto en TikTok.',
+    isEditable: true,
+  },
+  {
+    id: 'youtube_shorts_60',
+    name: 'YouTube Shorts (60s)',
+    platform: 'YouTube',
+    maxDurationSeconds: 60,
+    description: 'Límite máximo permitido para YouTube Shorts (60 segundos).',
+    isEditable: true,
+  },
+  {
+    id: 'custom',
+    name: 'Personalizado',
+    platform: 'Personalizado',
+    maxDurationSeconds: 15,
+    description: 'Introduce cualquier duración en segundos según tus necesidades.',
+    isEditable: true,
+    isCustom: true,
+  },
+];
